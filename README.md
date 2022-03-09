@@ -1,4 +1,4 @@
-# css-grid-flexbox
+# css-grid VS css-flexbox
 
 ## CSS Grid Layout
 
