@@ -11,18 +11,21 @@ The example below shows a three-column track grid with new rows created at a min
 
 ## HTML
 
-``<div class="wrapper">
+``
+<div class="wrapper">
   <div class="one">One</div>
   <div class="two">Two</div>
   <div class="three">Three</div>
   <div class="four">Four</div>
   <div class="five">Five</div>
   <div class="six">Six</div>
-</div>``
+</div>
+``
 
 ## CSS
 
-``.wrapper {
+``
+.wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -51,5 +54,6 @@ The example below shows a three-column track grid with new rows created at a min
 .six {
   grid-column: 3;
   grid-row: 4;
-}``
+}
+``
 
