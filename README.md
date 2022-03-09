@@ -57,3 +57,29 @@ The example below shows a three-column track grid with new rows created at a min
 }
 ```
 
+## Basic concepts of flexbox
+
+Flexbox is a layout mechanism designed for laying out groups of items in one dimension. Learn how to use it in this module.
+
+The Flexible Box Layout Model (flexbox) is a layout model designed for one-dimensional content. It excels at taking a bunch of items which have different sizes, and returning the best layout for those items.
+
+This is the ideal layout model for this sidebar pattern. Flexbox not only helps lay the sidebar and content out inline, but where there's not enough space remaining, the sidebar will break onto a new line. Instead of setting rigid dimensions for the browser to follow, with flexbox, you can instead provide flexible boundaries to hint how the content could display.
+
+### Creating a flex container
+Let's see how flexbox behaves by taking a group of different sized items and using flexbox to lay them out.
+
+```html
+<div class="container" id="container">
+  <div>One</div>
+  <div>Item two</div>
+  <div>The item we will refer to as three</div>
+</div>
+```
+
+To use flexbox you need to declare that you want to use a flex formatting context and not regular block and inline layout. Do this by changing the value of the display property to flex.
+
+```css
+.container {
+  display: flex;
+}
+```
